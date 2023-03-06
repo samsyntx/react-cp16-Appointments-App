@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import AppointmentItem from '../AppointmentItem'
 import './index.css'
 
 class Appointments extends Component {
@@ -47,7 +48,7 @@ class Appointments extends Component {
               </button>
             </div>
             <ul className="unorder-appointment-list">
-              <h1>Hi</h1>
+              <AppointmentItem />
             </ul>
           </section>
         </div>

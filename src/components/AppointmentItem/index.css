@@ -1,1 +1,28 @@
-/* Write your CSS here */
+.appointment-item-complete-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 10px 0px 10px 0px;
+  border: 0.5px solid #b5b7c4;
+  border-radius: 15px;
+  width: 300px;
+}
+.heading-and-start-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+}
+.item-heading {
+  color: #171f46;
+  font-weight: 500;
+}
+.star-button {
+  background: none;
+  border: none;
+}
+.item-paragraph-style {
+  color: #5a5a5a;
+  font-weight: 500;
+}
