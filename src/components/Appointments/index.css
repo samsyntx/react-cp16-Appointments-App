@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.complete-bg-main-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  padding: 25px;
+  width: 100%;
+}
+.white-bg-content-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.top-image-and-form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.add-appointment-form-heading {
+  color: #171f46;
+  font-weight: 500;
+  margin: 35px 0px 20px 0px;
+}
+
+.form-image {
+  display: none;
+}
+.label-element-style {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  color: #b5b7c4;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.input-element-style {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  height: 45px;
+  padding: 15px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 0.5px solid #a1a1a1;
+}
+::placeholder {
+  color: #b5b7c4;
+  opacity: 1; /* Firefox */
+}
+.add-event-button {
+  background-color: #8b5cf6;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 15px 0px 25px 0px;
+}
+/* Bottom Section CSS  */
+.appointments-starts-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0px 20px 0px;
+}
+.appointment-heading {
+  color: #171f46;
+  font-weight: 500;
+}
+.show-started-button {
+  color: #8b5cf6;
+  background: none;
+  border: 1px solid #8b5cf6;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+}
