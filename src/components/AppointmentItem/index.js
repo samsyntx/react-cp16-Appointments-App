@@ -12,7 +12,7 @@ const AppointmentItem = props => {
     : 'https://assets.ccbp.in/frontend/react-js/appointments-app/star-img.png'
 
   return (
-    <div className="appointment-item-complete-container">
+    <li className="appointment-item-complete-container">
       <div className="heading-and-start-icon-container">
         <h1 className="item-heading">{title}</h1>
         <button
@@ -25,7 +25,7 @@ const AppointmentItem = props => {
         </button>
       </div>
       <p className="item-paragraph-style">{formattedDate}</p>
-    </div>
+    </li>
   )
 }
 
