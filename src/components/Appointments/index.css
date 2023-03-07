@@ -60,6 +60,7 @@
   border-radius: 10px;
   font-size: 20px;
   margin: 15px 0px 25px 0px;
+  cursor: pointer;
 }
 /* Bottom Section CSS  */
 .appointments-starts-head {
@@ -80,8 +81,9 @@
   border: 1px solid #8b5cf6;
   padding: 5px 15px 5px 15px;
   border-radius: 15px;
+  cursor: pointer;
 }
-.unorder-appointment-list {
+.unordered-appointment-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -90,5 +92,17 @@
 @media all and (min-width: 700px) {
   .form-image {
     display: block;
+    margin: 50px;
+    width: 40%;
+  }
+  .top-image-and-form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .complete-form-section {
+    flex-grow: 1;
+    max-width: 40%;
   }
 }
