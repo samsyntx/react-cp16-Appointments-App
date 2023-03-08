@@ -14,7 +14,7 @@ const AppointmentItem = props => {
   return (
     <li className="appointment-item-complete-container">
       <div className="heading-and-start-icon-container">
-        <h1 className="item-heading">{title}</h1>
+        <p className="item-heading">{title}</p>
         <button
           className="star-button"
           type="button"
